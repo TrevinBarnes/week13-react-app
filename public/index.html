@@ -24,6 +24,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>React App</title>
   </head>
   <body>
@@ -39,5 +40,42 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <nav class="navbar navbar-expand-sm bg-warning">
+      <div class="container-fluid">
+        <!--navbar-->
+          
+        <ul class="collapse nabar-collapse">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"></a>
+          </li>
+        </ul>
+      </div>  
+    </nav>
+    <div>
+      <div class="container-fluid" id="LoginForm">
+          <!--Login, centered-->
+        <input action="form-control" type="email" placeholder="Email"></input>
+        <br>
+        <input action="form-control" type="password" placeholder="Password"></input>
+      </div>
+      <button class="submit">Login</button>
+    </div>
+
+  
+  
+  
+    <!--
+    Using create-react-app, create a new React project. Create a LoginForm component that contains the following:
+    
+    Username and password input fields, an h3 that says Log In, with a border. Style the component using the default generated CSS file.
+    
+    Create a Navigation component that contains links styled like a navbar.
+    
+    The links don't have to go anywhere.
+    
+    Put the Navigation component at the top of the page and the LoginForm in the center of the page.
+    -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>

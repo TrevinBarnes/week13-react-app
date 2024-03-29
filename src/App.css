@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+/*-----------------------------------------------------------------------------*/
+
+.submit{
+  color: #61dafb;
+
+}
+.submit:hover{
+  color: gray;
+}
+
+#LoginForm{
+  align-items: center;
+}
