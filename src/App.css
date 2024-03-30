@@ -38,14 +38,12 @@
 }
 /*-----------------------------------------------------------------------------*/
 
-.submit{
-  color: #61dafb;
-
-}
-.submit:hover{
-  color: gray;
+h1{
+  color:blue;
+  text-align: center;
 }
 
-#LoginForm{
-  align-items: center;
+.wrapper{
+  border: solid;
+  border-color: black;
 }
